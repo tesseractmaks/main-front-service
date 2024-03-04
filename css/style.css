@@ -132,7 +132,7 @@ ol {
 .site-container {
     display: block;
     margin: 0 auto;
-    border: 1px solid red;
+    border:1px solid red;
     border-top: none;
     border-bottom: none;
     max-width: 1440px;
@@ -145,13 +145,12 @@ ol {
     padding: 0;
     margin-top: 100px;
     margin-bottom: 200px;
-    border: 1px solid rgb(15, 92, 6);
+    border: 1px solid transparent;
     max-width: 100%;
 }
 
 .section-intro {
     margin-bottom: 150px;
-    border: 1px solid rgb(6, 13, 92);
     width: 100%;
     height: 1300px;
     background-image: url('../img/intro.jpg');
@@ -164,13 +163,11 @@ ol {
 .intr-cont-div-txt {
     display: flex;
     justify-content: left;
-    border: 1px solid rgb(96, 211, 79);
     min-height: 695px;
 }
 
 .left-intro {
     opacity: 0;
-    border: 1px solid rgb(232, 232, 235);
     padding: 20px;
     max-width: 700px;
     min-height: 500px;
@@ -185,7 +182,6 @@ ol {
 .right-intro {
     display: flex;
     justify-content: space-between;
-    border: 1px solid rgb(248, 100, 50);
     padding: 20px;
     min-width: 500px;
     min-height: 500px;
@@ -194,7 +190,6 @@ ol {
 .bottom-intro {
     margin-top: 400px;
     display: block;
-    border: 1px solid rgb(7, 151, 158);
     padding: 20px;
     min-height: 200px;
 }
@@ -218,7 +213,6 @@ ol {
 
 .section-estate {
     margin-bottom: 150px;
-    border: 1px solid rgb(6, 13, 92);
     width: 100%;
     max-height: 1400px;
     background-image: url('../img/estate.jpg');
@@ -242,7 +236,6 @@ ol {
     justify-content: right;
     margin-bottom: 80px;
     margin-top: 200px;
-    border: 1px solid rgb(96, 211, 79);
     min-height: 500px;
 }
 
@@ -251,12 +244,10 @@ ol {
     justify-content: space-between;
     margin-bottom: 80px;
     margin-top: 105px;
-    border: 1px solid rgb(96, 211, 79);
     min-height: 625px;
 }
 .left-estate {
     display: inline-block;
-    border: 1px solid rgb(232, 232, 235);
     padding: 20px;
     min-width: 500px;
     min-height: 500px;
@@ -264,7 +255,6 @@ ol {
 
 .right-estate {
     display: inline-block;
-    border: 1px solid rgb(248, 100, 50);
     padding: 20px;
     max-width: 500px;
     max-height: 150px;
@@ -274,7 +264,6 @@ ol {
 
 .bottom-estate {
     display: block;
-    border: 1px solid rgb(7, 151, 158);
     padding: 0;
     max-width: 100%;
     max-height: 300px;
@@ -287,8 +276,7 @@ ol {
 -----------------------*/
 
 .section-about {
-    margin-bottom: 150px;
-    border: 1px solid rgb(6, 13, 92);
+    margin-bottom: 300px;
     width: 100%;
     max-height: 1420px;
     background-image: url('../img/about.jpg');
@@ -302,15 +290,13 @@ ol {
     display: flex;
     justify-content: left;
     margin-top: 170px;
-    border: 1px solid rgb(96, 211, 79);
-    max-width: 500px;
+    max-width: 475px;
     min-height: 500px;
     background-color: rgba(0, 0, 0, 0.6);
 }
 
 .left-about {
     display: block;
-    border: 1px solid rgb(232, 232, 235);
     padding: 20px;
     max-width: 500px;
     min-height: 660px;
@@ -318,7 +304,6 @@ ol {
 
 .right-about {
     display: inline-block;
-    border: 1px solid rgb(248, 100, 50);
     padding: 20px;
     min-width: 500px;
     min-height: 500px;
@@ -328,7 +313,6 @@ ol {
 .bottom-about {
     display: block;
     margin-bottom: 100px;
-    border: 1px solid rgb(7, 151, 158);
     max-width: 100%;
     height: 200px;
 }
@@ -341,7 +325,6 @@ ol {
 
 .section-cosmetic {
     margin-bottom: 150px;
-    border: 1px solid rgb(6, 13, 92);
     width: 100%;
     max-height: 1420px;
     background-image: url('../img/cosmetic.jpg');
@@ -363,7 +346,6 @@ ol {
 
 .left-cosmetic {
     display: inline-block;
-    border: 1px solid rgb(232, 232, 235);
     background-color: rgba(0, 0, 0, 0.6);
     padding: 20px;
     max-width: 500px;
@@ -372,7 +354,6 @@ ol {
 
 .right-cosmetic {
     display: inline-block;
-    border: 1px solid rgb(248, 100, 50);
     padding: 20px;
     min-width: 500px;
     min-height: 500px;
@@ -382,7 +363,6 @@ ol {
     display: flex;
     justify-content: left;
     background-color: rgba(0, 0, 0, 0.6);
-    border: 1px solid rgb(248, 100, 50);
     padding: 20px;
     max-width: 430px;
     min-height: 500px;
@@ -484,7 +464,6 @@ ol {
 
 .section-refr {
     margin-bottom: 150px;
-    border: 1px solid rgb(6, 13, 92);
     width: 100%;
     max-height: 1400px;
     background-image: url('../img/refresh/jwt.jpg');
@@ -636,7 +615,6 @@ ol {
     margin-top: 190px;
     margin-left: 50px;
     display: block;
-    border: 1px solid rgb(7, 151, 158);
     max-width: 100%;
     max-height: 300px;
 }
@@ -646,7 +624,6 @@ ol {
     margin-top: 785px;
     margin-left: 50px;
     display: block;
-    border: 1px solid rgb(7, 151, 158);
     max-width: 100%;
     max-height: 300px;
 }
@@ -657,7 +634,7 @@ ol {
 
 .section-chat {
     margin-bottom: 150px;
-    border: 1px solid rgb(6, 13, 92);
+    border: 1px solid transparent;
     width: 100%;
     height: 1400px;
     background-image: url('../img/chat-1.png');
@@ -703,7 +680,6 @@ ol {
     min-width: 260px;
     min-height: 320px;
     z-index: 99998;
-    background-color: rgba(16, 21, 178, 0.2);
     align-items: center;
     justify-content: center;
     margin: 0;
@@ -716,7 +692,6 @@ ol {
     min-width: 260px;
     min-height: 320px;
     z-index: 99998;
-    background-color: rgba(16, 21, 178, 0.2);
     align-items: center;
     justify-content: center;
     margin: 0;
@@ -831,7 +806,6 @@ ol {
 
 .section-notif {
     margin-bottom: 150px;
-    border: 1px solid rgb(6, 13, 92);
     width: 100%;
     max-height: 1400px;
     background-image: url('../img/notif.jpg');
@@ -846,7 +820,6 @@ ol {
     display: flex;
     justify-content: center;
     margin-bottom: 80px;
-    border: 1px solid rgb(96, 211, 79);
     max-width: 100%;
 }
 
@@ -1200,7 +1173,6 @@ ol {
     margin-bottom: 180px;
     padding-left: 50px;
     padding-right: 50px;
-    border: 1px solid rgb(96, 211, 79);
     max-width: 100%;
 }
 .nav-list li {
